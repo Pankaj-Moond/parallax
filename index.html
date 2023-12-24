@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>parallax</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <div id="background">
+        <div id="overlay">
+            <nav>
+                <h3>Ready.co</h3>
+                <button>Sign up</button>
+            </nav>
+            <h1>Fly High</h1>
+            <footer>
+                <div id="left">
+                    <h2><span id="big">09</span>/10</h2>
+                </div>
+                <div id="right">
+                    <a href="#">facebook</a>
+                    <a href="#">X</a>
+                    <a href="#">twitch</a>
+                </div>
+            </footer>
+        </div>
+        <img data-depth=".08" id="sky" class="parallax" src="./images/sky.png" alt="">
+        <img data-depth=".1" id="pahad" class="parallax" src="./images/pahad1.png" alt="">
+        <img data-depth=".2" id="man" class="parallax" src="./images/pahadman.png" alt="">
+        <div id="gradient">
+        </div>
+    </div>
+    <div id="content">
+        <div id="elems">
+            <div class="block">
+                <div class="img" id="img1"></div>
+                <h5>air</h5>
+            </div>
+            <div class="block">
+                <div class="img" id="img2"></div>
+                <h5>land</h5>
+            </div>
+            <div class="block">
+                <div class="img" id="img3"></div>
+                <h5>sea</h5>
+            </div>
+            <div class="block">
+                <div class="img" id="img4"></div>
+                <h5>space</h5>
+            </div>
+        </div>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam dolore adipisci et repellat sint ipsam sapiente quasi maxime ducimus, nam asperiores dignissimos consequatur quam hic cum? Quaerat, veniam praesentium assumenda est illo optio, iure ipsa quidem nostrum dolore repellendus facere?</p>
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.4/gsap.min.js" integrity="sha512-EZI2cBcGPnmR89wTgVnN3602Yyi7muWo8y1B3a8WmIv1J9tYG+udH4LvmYjLiGp37yHB7FfaPBo8ly178m9g4Q==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.4/ScrollTrigger.min.js" integrity="sha512-OzC82YiH3UmMMs6Ydd9f2i7mS+UFL5f977iIoJ6oy07AJT+ePds9QOEtqXztSH29Nzua59fYS36knmMcv79GOg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>
